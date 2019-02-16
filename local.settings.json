@@ -2,6 +2,12 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "AzureWebJobsStorage": "{AzureWebJobsStorage}"
-  }
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=ctf;AccountKey=A8RQv2FCBxVPv87+WknqDhBXoYc2s4zxjTIeDxvrzI8D3k4oJzkiMLOhLn/aSyt8/Axj2pmpVft2N2WTlp1AXA==",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=ctf;AccountKey=A8RQv2FCBxVPv87+WknqDhBXoYc2s4zxjTIeDxvrzI8D3k4oJzkiMLOhLn/aSyt8/Axj2pmpVft2N2WTlp1AXA==",
+    "WEBSITE_CONTENTSHARE": "ctftrigger8965",
+    "WEBSITE_NODE_DEFAULT_VERSION": "8.11.1",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "d8cb8bf1-cb54-47e8-a88d-fde25171edd3"
+  },
+  "ConnectionStrings": {}
 }
