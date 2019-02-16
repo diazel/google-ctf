@@ -3,11 +3,7 @@ var fs = require('fs');
 module.exports = async function (context, req) {
 
     if (req.query.cookie) {
-	    fs.writeFile('/home/log.txt', req.query.cookie, (err) => {
-		    if (err) {
-			    throw err;
-		    }
-	    })
+	context.log.warn('Cookie: ' + req.query.cookie)
         context.res = {
             // status: 200, /* Defaults to 200 */
             body: 'Look at this cat!'
